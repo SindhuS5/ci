@@ -10,10 +10,11 @@ print("floor value of a and b is:",a//b)
 git init
 echo "# My Git Repository" > README.md
 git add README.md
-git commit -m "Initial commit"
+git commit -m "Initial commit ---with readme file---"
 git remote add origin https://github.com/username/repository.git
 git branch -M master
 git push -u origin master
+
 type nul > 1.txt
 type nul > 2.txt
 git add .
@@ -22,11 +23,19 @@ git push
 git checkout -b MITS
 git push -u origin MITS
 git checkout master
-git log
-(Optional short view)
-git log --oneline
-
 git checkout MITS
 git status
 git branch
 git log --oneline
+
+git log
+(Optional short view)
+git log --oneline
+
+git clone “githib repository url”
+cd repository-name
+
+git add .
+git commit -m "Updated files"
+git push origin main
+
