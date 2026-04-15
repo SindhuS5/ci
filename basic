@@ -22,6 +22,10 @@ git push
 git checkout -b MITS
 git push -u origin MITS
 git checkout master
+git log
+(Optional short view)
+git log --oneline
+
 git checkout MITS
 git status
 git branch
